@@ -12,6 +12,6 @@ def account_login():
         client_secret=os.getenv('reddit_client_secret'),
         username=os.getenv('reddit_username'),
         password=os.getenv('reddit_password'),
-        user_agent='subscribe to listed subs'
+        user_agent='account migrator'
     )
     return reddit
